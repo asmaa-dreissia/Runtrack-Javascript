@@ -1,0 +1,16 @@
+body {
+    min-height: 4096px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fe3f3f;
+    transition: background-color 1,25s ease;
+}
+
+
