@@ -1,0 +1,73 @@
+
+
+/*FORMULAIRE*/
+
+h2{
+    text-align: center;
+    font-family: Lato;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    
+  }
+  
+  .formulaire {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .formulaire {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f0f4ef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #546a2a;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"],
+  form input[type="number"],
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    box-sizing: border-box;
+    transition: border-bottom-color 0.3s ease;
+  }
+    
+  .form button:hover {
+    background-color: #40591c;
+  }
+  
+  .formulaire button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #546a2a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    display: none;
+}
