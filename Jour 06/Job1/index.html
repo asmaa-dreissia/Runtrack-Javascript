@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Bootstrap</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  
+</head>
+<body class="bg-secondary text-black">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> LPTF </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="https://laplateforme.io/">Accueil </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Units </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jobs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="container mt-3">
+          <div class="row justify-content-center">
+            <div class="col">
+              <h1 class="text-center">LaPlateforme_</h1>
+            </div>
+          </div>
+        </div>
+</header>
+
+<main class="container mt-4 mb-4">
+    <div class="row ">
+
+<!-- IMAGE -->
+
+      <div class="col-sm-3 1 mr-2">
+        <div class="text-left bg-light p-2" >
+          <img src="papillon.jpg" alt="Image" class="img-fluid">
+          <P class="mt-2 font-weight-bold">Un Papillon </P>
+          <p> Un papillon c'est un peu comme une chenille, mais avec des ailes. Ne pas ingerer.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#confirmationModal"> Commander votre propre papillon</button>
+        </div>
+      </div>
+
+<!-- MODAL -->
+<div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmationModalLabel">Confirmation d'achat</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Êtes-vous sûr de vouloir acheter ce papillon ?
+      </div>
+      <div class="modal-footer">
+        <!-- Bouton pour confirmer l'achat -->
+        <button type="button" class="btn btn-primary" id="confirmPurchaseBtn">Confirmer</button>
+        <!-- Bouton pour fermer la modal -->
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
+<!-- CONTAINER MILIEU-->
+
+      <div id="jumbotronText" class=" col-sm-7 border mr-2 bg-light">
+        <h2 class="text-left mt-4">Bonjour, monde !</h2>
+        <p> Il existe plusieur visions du terme : <br>
+          <br>
+         Le monde est la matière, l'espace et les phénomènes qui nous accesibles par les sens, l'expérience ou la raison. <br>
+         <br>
+         Le sens le plus courant désign notre planète, la Terre, avec ses habitants, et son environnement plus ou moins naturel.</p>
+        <hr>
+        <p> Le sens étendu désign l'univers dans son ensemble</p>     
+        
+      <button id="rebootButton" class="btn btn-danger btn-sm text-white" style="height: 30px;">Rebooter le Monde</button>
+      <script src="index.js"></script> 
+
+<!--CAROUSEL-->
+
+        <div class="carousel-mini-buttons text-right ">
+          <a class="carousel-mini-buttons" href="" role="button" data-slide-to="0"> 1 </a>
+          <a class="carousel-mini-buttons" href="" role="button" data-slide-to="1"> 2 </a>
+          <a class="carousel-mini-buttons" href="" role="button" data-slide-to="2"> 3 </a>
+        </div>
+      </div>
+
+      
+
+<!-- LISTE A DROITE -->
+<div class="col-sm-1" >
+  <div class="text-right" >
+      <div class="btn-group-vertical" id="rightListGroup" role="group" aria-label="Right List Group" >
+          <button type="button" class="btn btn-light">Limbes</button>
+          <button type="button" class="btn btn-light">Luxure</button>
+          <button type="button" class="btn btn-light">Gourmandise</button>
+          <button type="button" class="btn btn-light">Avarice</button>
+          <button type="button" class="btn btn-light">Colere</button>
+          <button type="button" class="btn btn-light">Heresie</button>
+          <button type="button" class="btn btn-light">Violence</button>
+          <button type="button" class="btn btn-light">Ruse et Tromperie</button>
+          <button type="button" class="btn btn-light">Trahison</button>
+          <button type="button" class="btn btn-light">Internet</button> 
+      </div>
+  </div>
+</div>
+
+<!-- BARRE DE TELECHARGEMENT -->
+    <div class="container mt-2">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-6">
+          <p class="text-end text-black font-weight-bold text-right"> Installation de AI 9000</p>
+          <div class="progress mx-auto">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- BAS -->
+    <div class="form-group-row mt-5"> 
+
+      <div class="col-auto">
+        <p class="font-weight-bold">Recevez votre copie gratuite d'internet 2 ! </p>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text"> @ </div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Login">
+        </div>
+      </div>
+      
+      <div class="col-auto">
+        <div class="input-group mb-2">
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Mot de passe">
+          <div class="input-group-append">
+            <div class="input-group-text"> @example.com </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto">
+        <p >URL des internets 2 et 2.1 </p>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text"> DogeCoin </div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup">
+          <div class="input-group-append">
+            <div class="input-group-text"> .00 </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-auto">
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> http://133.t </div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroup">
+      </div>
+    </div>
+
+    </div>
+
+      
+<!-- BAS A DROITE -->
+
+    <div class="form-group-row mt-5 ml-auto"> 
+      
+      <div class="col-auto">
+        <p class="font-weight-bold">Email Adress</p>
+        <div class="input-group mb-2">
+          <input type="password" class="form-control" id="inlineFormInputGroup">
+        </div>
+      </div>
+      
+      <div class="col-auto">
+        <p class="font-weight-bold">Mot de passe</p>
+        <div class="input-group mb-2">
+          <input type="password" class="form-control" id="inlineFormInputGroup">
+        </div>
+      </div>
+
+      <div class="form-group-row "> 
+        <div class="col-auto ml-auto mt-4">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+      
+    </div>
+
+    </div>
+</main>
+
+
+
+
+
+<!-- Bootstrap JS et jQuery (optionnel) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
