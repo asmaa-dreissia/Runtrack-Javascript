@@ -1,0 +1,5 @@
+/* Style personnalisé pour la classe active */
+.btn-group-vertical .btn.active {
+    background-color: blue; /* Couleur de fond bleue */
+    color: white; /* Texte blanc sur fond bleu */
+}
