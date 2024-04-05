@@ -1,0 +1,28 @@
+{
+    "user": [
+      {
+        "id": 1,
+        "nom": "grim",
+        "prenom": "Asmaa",
+        "email": "asm.drs@laplateforme.io",
+        "password": "123algerie",
+        "role": "administrateur"
+      },
+      {
+        "id": 2,
+        "nom": "grim",
+        "prenom": "Adel",
+        "email": "adel.grim@laplateforme.io",
+        "password": "jane13",
+        "role": "moderateur"
+      },
+      {
+        "id": 3,
+        "nom": "sarou",
+        "prenom": "Pierre",
+        "email": "pierre.sarou@laplateforme.io",
+        "password": "pierre13",
+        "role": "utilisateur"
+      }
+    ]
+  }
